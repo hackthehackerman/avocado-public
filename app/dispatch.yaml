@@ -1,0 +1,6 @@
+dispatch:
+  # Default service serves the typical web resources and all static resources.
+  - url: "pragmatic-star-359521.uw.r.appspot.com/"
+    service: default
+  - url: "pragmatic-star-359521.uw.r.appspot.com/api/*"
+    service: avocado-server

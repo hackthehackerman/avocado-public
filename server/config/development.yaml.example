@@ -1,0 +1,22 @@
+slack:
+  client_id: 
+  client_secret: 
+  signing_secret: 
+  app_token: 
+  redirect_uri: {your back end url}/api/slack/redirect
+
+linear:
+  client_id: 
+  client_secret: 
+  redirect_uri: {your back end url}/api/linear/redirect
+
+database:
+  uri: 
+
+google:
+  client_id: 
+  client_secret: 
+
+url:
+  app: http://localhost:3000
+  dashboard: http://localhost:3000/dashboard

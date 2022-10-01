@@ -1,0 +1,4 @@
+mysql:
+    dialect: mysql
+    datasource: root@/test?parseTime=true
+    dir: migrations
