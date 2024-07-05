@@ -1,7 +1,6 @@
 package cors
 
 import (
-	"fmt"
 	"net/http"
 	"strings"
 
@@ -75,10 +74,6 @@ func (cors *cors) applyCors(c *gin.Context) {
 	}
 
 	if !cors.validateOrigin(origin) {
-		fmt.Println("I am failing")
-		fmt.Println(origin)
-		fmt.Println(cors.allowOrigins)
-
 		c.AbortWithStatus(http.StatusForbidden)
 		return
 	}
